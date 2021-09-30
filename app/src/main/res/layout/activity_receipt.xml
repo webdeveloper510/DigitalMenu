@@ -284,7 +284,8 @@
             android:textAllCaps="true"
             android:textColor="@color/black"
             android:textStyle="bold"
-            android:text="Please visit us again"/>
+            android:text="Danke für ihr Vertrauen"/>
+
 
         <TextView
         android:layout_width="wrap_content"
@@ -295,7 +296,7 @@
             android:textStyle="bold"
             android:layout_marginTop="5dp"
         android:textColor="@color/black"
-        android:text="Thank You"/>
+        android:text="Besuchen sie uns bald wieder"/>
 
     </LinearLayout>
 
@@ -304,11 +305,11 @@
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="match_parent"
         android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
         android:layout_marginTop="20dp"
         android:background="#3E78F8"
         android:gravity="center"
-        android:text="Forgot something? Continue shopping"
-        android:layout_alignParentBottom="true"
+        android:text="Etwas vergessen? Weiter shoppen"
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="18sp"
