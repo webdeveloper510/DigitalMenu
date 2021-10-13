@@ -6,7 +6,7 @@
     android:layout_centerInParent="true"
     android:layout_margin="10dp"
     android:background="@drawable/rounded_stroke"
-    tools:context=".activities.MainActivity">
+    tools:context=".view.MainActivity">
 
 
         <RelativeLayout

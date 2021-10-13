@@ -1,6 +1,5 @@
-package com.digitalmenu.app.adapters;
+package com.digitalmenu.app.adapter;
 
-import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,8 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.digitalmenu.app.R;
-import com.digitalmenu.app.activities.CartActivity;
-import com.digitalmenu.app.activities.SubItemsActivity;
+import com.digitalmenu.app.view.CartActivity;
 
 public class RVCartlAdapter extends RecyclerView.Adapter<RVCartlAdapter.RVSubDetailAdapterHolder> {
 

@@ -7,7 +7,7 @@
     android:background="@mipmap/bgclient3"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".activities.EnterTableNOActivity">
+    tools:context=".view.EnterTableNOActivity">
 
 
     <ImageView

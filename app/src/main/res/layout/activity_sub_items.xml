@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:background="#FBF7F1"
-    tools:context=".activities.SubItemsActivity">
+    tools:context=".view.SubItemsActivity">
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"

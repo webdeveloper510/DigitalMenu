@@ -1,23 +1,17 @@
-package com.digitalmenu.app.activities;
+package com.digitalmenu.app.view;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.content.res.ResourcesCompat;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.content.res.Resources;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.Handler;
-import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.WindowManager;
 import android.widget.TextView;
 
 import com.digitalmenu.app.R;
-
-import java.util.Locale;
 
 import utils.Constants;
 

@@ -1,4 +1,4 @@
-package com.digitalmenu.app.activities;
+package com.digitalmenu.app.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -9,27 +9,26 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.digitalmenu.app.R;
-import com.digitalmenu.app.adapters.RVSubItemAdapter;
+import com.digitalmenu.app.adapter.RVCatDetailAdapter;
 
-public class SubItemsActivity extends AppCompatActivity {
+public class CategoryDetailActivity extends AppCompatActivity {
 
-    RVSubItemAdapter rvSubItemAdapter;
-    RecyclerView rv_subItem;
+    private RVCatDetailAdapter rvCatDetailAdapter;
+    private RecyclerView rvCatDetail;
     ImageView ivBackButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sub_items);
+        setContentView(R.layout.activity_category_detail);
 
-        rv_subItem=findViewById(R.id.rv_subItem);
+        rvCatDetail=findViewById(R.id.rvCatDetail);
         ivBackButton=findViewById(R.id.ivBackButton);
 
         LinearLayoutManager manager = new LinearLayoutManager(this);
-        rvSubItemAdapter = new RVSubItemAdapter(SubItemsActivity.this);
-        rv_subItem.setLayoutManager(manager);
-        rv_subItem.setAdapter(rvSubItemAdapter);
-        rv_subItem.setNestedScrollingEnabled(false);
+        rvCatDetailAdapter = new RVCatDetailAdapter(CategoryDetailActivity.this);
+        rvCatDetail.setLayoutManager(manager);
+        rvCatDetail.setAdapter(rvCatDetailAdapter);
 
         ivBackButton.setOnClickListener(new View.OnClickListener() {
             @Override

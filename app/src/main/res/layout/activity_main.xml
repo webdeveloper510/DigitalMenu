@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@mipmap/bgclient3"
 
-    tools:context=".activities.MainActivity">
+    tools:context=".view.MainActivity">
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"

@@ -1,4 +1,4 @@
-package com.digitalmenu.app.activities;
+package com.digitalmenu.app.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,9 +9,6 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageView;
-import android.widget.TextView;
-import android.widget.Toast;
 
 import com.digitalmenu.app.R;
 

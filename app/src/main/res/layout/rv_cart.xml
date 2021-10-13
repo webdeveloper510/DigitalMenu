@@ -4,14 +4,16 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_centerInParent="true"
-    android:layout_margin="10dp"
-    tools:context=".activities.MainActivity">
+
+    tools:context=".view.MainActivity">
 
 
     <RelativeLayout
+        android:id="@+id/rl_top"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
+        android:layout_margin="10dp"
         android:padding="8dp">
 
         <TextView
@@ -97,6 +99,12 @@
 
 
     </RelativeLayout>
+
+    <View android:background="@color/black"
+        android:layout_below="@+id/rl_top"
+        android:layout_width = "match_parent"
+        android:layout_height="4dp"/>
+
 
 </RelativeLayout>
 

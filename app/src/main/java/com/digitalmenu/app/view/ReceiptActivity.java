@@ -1,4 +1,4 @@
-package com.digitalmenu.app.activities;
+package com.digitalmenu.app.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 

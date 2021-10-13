@@ -1,4 +1,4 @@
-package com.digitalmenu.app.adapters;
+package com.digitalmenu.app.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,7 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.digitalmenu.app.R;
-import com.digitalmenu.app.activities.SubItemsActivity;
+import com.digitalmenu.app.view.SubItemsActivity;
 
 public class RVSubItemAdapter extends RecyclerView.Adapter<RVSubItemAdapter.SubItemAdapterHolder> {
 

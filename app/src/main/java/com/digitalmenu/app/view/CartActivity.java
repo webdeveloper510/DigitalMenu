@@ -1,4 +1,4 @@
-package com.digitalmenu.app.activities;
+package com.digitalmenu.app.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -11,8 +11,11 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.digitalmenu.app.R;
-import com.digitalmenu.app.adapters.RVCartlAdapter;
-import com.digitalmenu.app.adapters.RVCatDetailAdapter;
+import com.digitalmenu.app.adapter.RVCartlAdapter;
+import com.digitalmenu.app.constants.JsonUtil;
+import com.google.gson.JsonObject;
+
+import java.io.IOException;
 
 public class CartActivity extends AppCompatActivity {
 
@@ -48,6 +51,9 @@ public class CartActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
+
 
     }
 }

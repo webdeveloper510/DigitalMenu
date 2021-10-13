@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.CategoryDetailActivity">
+    tools:context=".view.CategoryDetailActivity">
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
@@ -60,6 +60,7 @@
                 android:id="@+id/vw1"
                 android:layout_width="match_parent"
                 android:layout_height="2dp"
+                android:visibility="gone"
                 android:layout_below="@+id/rl_bottom"
                 android:layout_marginTop="20dp"
                 android:background="#95C5C5C5" />
@@ -135,10 +136,10 @@
             <View
                 android:id="@+id/vw"
                 android:layout_width="match_parent"
-                android:layout_height="2dp"
+                android:layout_height="4dp"
                 android:layout_below="@+id/rl_bottom"
                 android:layout_marginTop="20dp"
-                android:background="#95C5C5C5" />
+                android:background="@android:color/black" />
 
             <TextView
                 android:id="@+id/tv_min_order"

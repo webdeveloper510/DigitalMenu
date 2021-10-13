@@ -1,4 +1,4 @@
-package com.digitalmenu.app.adapters;
+package com.digitalmenu.app.adapter;
 
 import android.content.Intent;
 import android.view.LayoutInflater;
@@ -9,9 +9,8 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.digitalmenu.app.R;
-import com.digitalmenu.app.activities.CartActivity;
-import com.digitalmenu.app.activities.CategoryDetailActivity;
-import com.digitalmenu.app.activities.SubItemsActivity;
+import com.digitalmenu.app.view.CategoryDetailActivity;
+import com.digitalmenu.app.view.SubItemsActivity;
 
 public class RVCatDetailAdapter extends RecyclerView.Adapter<RVCatDetailAdapter.RVCatDetailAdapterHolder> {
     CategoryDetailActivity context;

@@ -8,11 +8,13 @@
         <entry key="..\:/Sohan/DigitalMenu/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.1965" />
         <entry key="..\:/Sohan/DigitalMenu/app/src/main/res/drawable/rv_empty_cart.xml" value="0.1965" />
         <entry key="..\:/Sohan/DigitalMenu/app/src/main/res/layout/activity_category_detail.xml" value="0.18854166666666666" />
-        <entry key="..\:/Sohan/DigitalMenu/app/src/main/res/layout/activity_receipt.xml" value="0.2911392405063291" />
-        <entry key="..\:/Sohan/DigitalMenu/app/src/main/res/layout/activity_sub_detail.xml" value="0.25" />
-        <entry key="..\:/Sohan/DigitalMenu/app/src/main/res/layout/rv_cart.xml" value="0.1" />
+        <entry key="..\:/Sohan/DigitalMenu/app/src/main/res/layout/activity_receipt.xml" value="0.22" />
+        <entry key="..\:/Sohan/DigitalMenu/app/src/main/res/layout/activity_sub_detail.xml" value="0.2" />
+        <entry key="..\:/Sohan/DigitalMenu/app/src/main/res/layout/rv_cart.xml" value="0.5809716599190283" />
         <entry key="..\:/Sohan/DigitalMenu/app/src/main/res/layout/rv_empty_cart.xml" value="0.25" />
+        <entry key="..\:/Sohan/DigitalMenu/app/src/main/res/layout/rv_home1.xml" value="0.25" />
         <entry key="..\:/Sohan/DigitalMenu/app/src/main/res/layout/rv_sub_item.xml" value="0.18854166666666666" />
+        <entry key="..\:/Sohan/DigitalMenu/app/src/main/res/xml/network_security_config.xml" value="0.1" />
       </map>
     </option>
   </component>
